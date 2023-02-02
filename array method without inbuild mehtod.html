@@ -26,6 +26,90 @@
   
 
 console.log(a)
+
+
+
+
+
+
+
+
+<!-- var a=[1,2,3,5,7] -->
+var array=[1,2,3,4,5]
+var temp;
+   for ( i = array.length - 1; i > 0; i--) {
+   
+       // Generate random number
+        var mat = Math.floor(Math.random() * (i + 1));
+                   
+       var temp = array[i];
+       array[i] = array[mat];
+       array[mat] = temp;
+   }
+       
+   console.log(array)
+   
+   
+   
+   var array=[1,2,3,4,5]
+	var temp;
+   for ( i = 0; i > array.length; i++) {
+   
+        var mat = Math.floor(Math.random() * (i+1));
+                   
+       temp = array[i];
+       array[i] = mat;
+       array[mat] = temp;
+   }
+       
+   console.log(array)
+
+
+
+
+
+	<!-- var str=[5,10,"ram",20,"bala",40,"anand"]; -->
+		<!-- var v=[]; -->
+		<!-- for(i=0;i<str.length;i++){ -->
+		    <!-- var name=str[i]; -->
+			<!-- var str1=typeof(name); -->
+		    <!-- if(str1!="string"){ -->
+			      <!-- v.push(str[i]); -->
+				<!-- } -->
+		<!-- } -->
+		<!-- console.log(v);	 -->
+	
+		<!-- var aa=[12,"+",3,"+",7]; -->
+		<!-- var d=[]; -->
+		<!-- for(i=0;i<aa.length;i++){ -->
+		    <!-- var num=aa[i]; -->
+			<!-- var num1=typeof(num); -->
+			<!-- if(num1!="string"){ -->
+			    <!-- d.push(aa[i]); -->
+		    <!-- } -->
+			
+			<!-- } -->
+			<!-- console.log(d); -->
+	        <!-- console.log(d[0]); -->
+		<!-- var a=[2,3,4,5,6,7,10,12]; -->
+		<!-- var c=[]; -->
+	    <!-- a.forEach(function(b){ -->
+		    <!-- if(b%2==0){ -->
+			   <!-- c.push(b); -->
+			  <!-- } -->
+			 
+		<!-- }); -->
+		<!-- console.log(c); -->
+
+
+
+
+
+
+
+
+
+
    </script>
  </body>
  </html>
